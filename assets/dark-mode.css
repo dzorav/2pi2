@@ -1,0 +1,56 @@
+html {
+    background: #111111;
+}
+
+body {
+    color: var(--white1);
+}
+
+header {
+    box-shadow: 0px 1px 8px -3px #eeeeee85;
+    background: #111111;
+}
+
+section a {
+    color: var(--blue1);
+}
+
+
+.section-heading {
+    border-bottom: 3px solid var(--white1);
+}
+
+.section-heading-styling:after {
+
+    background: #111111;
+}
+
+.works-child-1 ul li:hover {
+    background: #eeeeee24;
+    color: var(--blue1);
+}
+.works-child-1 ul li span {
+    background: var(--white1);
+}
+
+.works-child-1 ul li:hover span:after {
+    background: #111111;
+}
+
+footer p {
+    background: #111;
+    color: #fff;
+    box-shadow: 0px 0px 8px -2px #eeeeee85;
+}
+
+
+
+
+@media only screen and (min-width: 1921px) {
+
+
+
+    main {
+        background: #111111;
+    }
+}
